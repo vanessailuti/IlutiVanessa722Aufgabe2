@@ -1,3 +1,5 @@
+package src;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,10 +17,10 @@ public class Patienten {
     /**
      * Erstellt ein neues {@code Patient}-Objekt mit einer ID, einem Namen,  einem Alter und einer zugehörigen Diagnose und eine Liste von Medikamenten.
      *
-     * @param patientenID     Die eindeutige ID dem Patienten.
-     * @param name   Der Name der Patienten.
-     * @param alter  Der Alter der Patienten.
-     * @param diagnose Die zugehörige Diagnose der Patienten.
+     * @param patientenID     Die eindeutige ID dem src.Patienten.
+     * @param name   Der Name der src.Patienten.
+     * @param alter  Der Alter der src.Patienten.
+     * @param diagnose Die zugehörige Diagnose der src.Patienten.
      */
 
 
@@ -67,7 +69,7 @@ public class Patienten {
 
     @Override
     public String toString() {
-        return "Patienten{" +
+        return "src.Patienten{" +
                 "patientenID=" + patientenID +
                 ", name='" + name + '\'' +
                 ", alter='" + alter + '\'' +

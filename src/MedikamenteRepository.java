@@ -1,8 +1,10 @@
+package src;
+
 import java.util.HashMap;
 import java.util.List;
 
 public class MedikamenteRepository {
-    private HashMap<Integer,Medikamente> medikamenteData = new HashMap<Integer, Medikamente>();
+    private HashMap<Integer, Medikamente> medikamenteData = new HashMap<Integer, Medikamente>();
 
     public void addMedikamente(Medikamente medikamente) {medikamenteData.putIfAbsent(medikamente.getId(), medikamente);}
 
