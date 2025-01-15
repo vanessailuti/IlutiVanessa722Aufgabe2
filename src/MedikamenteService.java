@@ -13,7 +13,7 @@ public class MedikamenteService {
         repo.addMedikamente(new Medikamente(id, name, preis, krankheit));
     }
 
-    public void deleteMedikamente(int id) {
+    public  void deleteMedikamente(int id) {
         repo.deleteMedikamente(id);
     }
 
